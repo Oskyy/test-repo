@@ -1,0 +1,12 @@
+/**
+ This background image not being referenced properly
+
+ Some builds it will load, some it will not so I am not sure 
+ if this is an import path error or a webpack config error?
+
+Setting the url with a ~/img.. works while in dev mode. When i build a dist bundle however, the img reference doesn't work.
+ */
+
+.about {
+	background: url('~/img/test-img1.png');
+}
